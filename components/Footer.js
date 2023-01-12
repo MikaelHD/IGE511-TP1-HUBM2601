@@ -5,6 +5,7 @@ export default function Footer() {
     <>
       <footer className={styles.footer}>
         Made with <img src="/netliheart.svg" alt="Netlify Logo" className={styles.logo} /> for you
+          (In reality, it was made for IGE511 purposes, but anyway) - hwygowerhsdf !!
       </footer>
     </>
   )
