@@ -59,5 +59,6 @@ code {
 }
 
 .changelog {
- text-align: right;
+  text-align: left;
+  line-height: 40px;
 }
