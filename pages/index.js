@@ -8,6 +8,7 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
+          <meta name="google-site-verification" content="FWi9T4X9ZUYXwnTSFiPtlNIi0ktwvYUsYWjYSKKckzY" />
         <title>hwygowerhsdf</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
