@@ -1,3 +1,4 @@
+
 html,
 body {
   padding: 0;
@@ -26,7 +27,6 @@ code {
 }
 
 .container {
-  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -41,21 +41,6 @@ code {
 .description {
   font-size: xx-small;
   font-style: italic;
-}
-
-.container.video-responsive {
-  overflow: hidden;
-  padding-bottom: 56.25%;
-  position: relative;
-  height: 0;
-}
-
-.container.video-responsive iframe {
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 100%;
-  position: absolute;
 }
 
 .changelog {
