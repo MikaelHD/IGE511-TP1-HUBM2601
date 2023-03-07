@@ -13,7 +13,7 @@ export default function Home() {
               <meta name="google-site-verification" content="FWi9T4X9ZUYXwnTSFiPtlNIi0ktwvYUsYWjYSKKckzY" />
               <meta name="description" content="hwygowerhsdf is a secret organization from within UDS that uncovers the
               truth about the school's secrets"/>
-            <title>The truth about hwygowerhsdf - What they are hiding from us</title>
+            <title>hwygowerhsdf</title>
             <link rel="icon" href="/favicon.ico" />
           </Head>
           <main>
