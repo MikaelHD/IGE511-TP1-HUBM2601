@@ -18,7 +18,7 @@ export default function Home() {
           </Head>
           <main>
                 <Header title="What is hwygowerhsdf ? - Read below for more information" />
-                <Image src={udsImage} width={'512'} height={'512'} alt={"UDS' hidden logo"}/>
+                <Image src={udsImage} width={'512'} height={'512'} alt={"hwygowerhsdf hidden logo"}/>
                 <p className="description">
                 hwygowerhsdf - On ne sait jamais...!
                 </p>

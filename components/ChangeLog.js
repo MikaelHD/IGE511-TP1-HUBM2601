@@ -6,10 +6,10 @@ const Commits = () => {
     })
     if (error) return error.message
     if (data) {
-        const listCommits = data.reverse().map((commitMessage) =>
+        let listCommits = data.reverse().map((commitMessage) =>
             <li><code>{commitMessage.commit.message},
-                committed by: {commitMessage.commit.author.name},
-                date: {new Date(commitMessage.commit.author.date).toLocaleDateString('en-CA')}</code></li>);
+                date: {new Date(commitMessage.commit.author.date).toLocaleDateString('en-CA')}</code></li>)
+            .slice(4);
 
         return (<div>
             <b>Commit list:</b>
