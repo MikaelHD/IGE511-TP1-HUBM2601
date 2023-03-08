@@ -22,9 +22,9 @@ export default function Home() {
             <title>hwygowerhsdf</title>
             <link rel="icon" href="/favicon.ico" />
           </Head>
-          <main>
+          <main itemScope itemType={'https://schema.org/AnalysisNewsArticle'}>
                 <Header title={t('title')}></Header>
-                <Image src={udsImage} width={'512'} height={'512'} alt={t('imageAlt')}/>
+                <Image src={udsImage} width={'512'} height={'512'} alt={t('imageAlt')} itemProp={'image'}/>
                 <p className="description">
                 <Trans i18nKey={'description'}></Trans>
                 </p>
