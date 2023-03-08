@@ -1,5 +1,6 @@
 import React from "react"
 import { useFetch } from "react-async"
+import {Trans} from "react-i18next";
 const Commits = () => {
     const { data, error } = useFetch(`https://api.github.com/repos/mikaelhd/IGE511-TP1-HUBM2601/commits?author=mikael.hubert-deschamps@usherbrooke.ca`, {
         headers: { accept: "application/json" },
@@ -12,7 +13,7 @@ const Commits = () => {
             .slice(4);
 
         return (<div>
-            <b>Commit list:</b>
+            <b><Trans i18nKey={'commitList'}></Trans></b>
             <ol className="changelog">
                 {listCommits}</ol>
         </div>)}
@@ -21,5 +22,4 @@ const Commits = () => {
 
 export default function ChangeLog() {
     return <Commits />
-
 }
